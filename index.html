@@ -1,0 +1,309 @@
+<!DOCTYPE html>
+<html class="h-full" lang="es">
+<head>
+  <meta charset="utf-8">
+  <meta content="width=device-width, initial-scale=1.0, maximum-scale=1.0, user-scalable=no" name="viewport">
+  <title>Credinova - Tranquilidad Financiera</title>
+  
+  <!-- Google Fonts -->
+  <link href="https://fonts.googleapis.com" rel="preconnect">
+  <link crossorigin="" href="https://fonts.gstatic.com" rel="preconnect">
+  <link href="https://fonts.googleapis.com/css2?family=Plus+Jakarta+Sans:wght@400;500;600;700;800&display=swap" rel="stylesheet">
+  
+  <!-- FontAwesome for crisp vector icons -->
+  <link href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.1/css/all.min.css" rel="stylesheet">
+  
+  <!-- Tailwind CSS v3 -->
+  <script src="https://cdn.tailwindcss.com?plugins=forms,container-queries"></script>
+  <script>
+    tailwind.config = {
+      theme: {
+        extend: {
+          fontFamily: {
+            sans: ['"Plus Jakarta Sans"', 'system-ui', '-apple-system', 'sans-serif'],
+          },
+          colors: {
+            brand: {
+              navy: '#091A2F',
+              deep: '#061322',
+              card: '#0D223B',
+              blue: '#1877F2',
+              accent: '#0284c7',
+              whatsapp: '#25D366',
+              gold: '#F59E0B'
+            }
+          }
+        }
+      }
+    }
+  </script>
+  
+  <!-- Hoja de estilos personalizada -->
+  <link rel="stylesheet" href="css/styles.css">
+</head>
+
+<body class="bg-brand-deep text-slate-100 font-sans min-h-screen flex flex-col antialiased selection:bg-blue-600 selection:text-white">
+  
+  <!-- BEGIN: Header & HeroBanner -->
+  <header class="w-full bg-white shadow-md relative overflow-hidden" data-purpose="top-header">
+    <div class="w-full bg-[#061322] border-b border-slate-800/80 px-4 py-2 flex items-center justify-between z-10 relative">
+      <div class="flex items-center gap-2">
+        <span class="text-white font-extrabold text-base tracking-tight">Credinova</span>
+      </div>
+      <a class="inline-flex items-center gap-2 bg-emerald-500 hover:bg-emerald-600 text-white text-xs font-bold px-3 py-1.5 rounded-full shadow transition" href="https://wa.me/573145683788?text=Hola%20Credinova%2C%20quiero%20solicitar%20mi%20diagn%C3%B3stico%20gratuito%20para%20sanear%20mi%20vida%20crediticia" target="_blank" rel="noopener noreferrer">
+        <i class="fa-brands fa-whatsapp text-sm"></i>
+        <span>Escríbenos por WhatsApp</span>
+      </a>
+    </div>
+    
+    <!-- Contenedor con fondo 100% blanco para que tu imagen PNG destaque -->
+    <div class="w-full flex justify-center bg-white border-b border-slate-200 relative pt-6 pb-6">
+      <!-- Se llama a la imagen transparente desde tu carpeta local img/ -->
+      <img alt="Credinova - Recupera tu tranquilidad financiera" class="w-full max-w-lg h-auto object-contain px-4" src="img/portada-credinova.png">
+    </div>
+  </header>
+  <!-- END: Header & HeroBanner -->
+
+  <!-- BEGIN: MainContent -->
+  <main class="flex-grow w-full max-w-lg mx-auto px-5 pt-6 pb-12 flex flex-col items-center" data-purpose="main-content">
+    
+    <!-- BEGIN: Hero Copy & Value Proposition -->
+    <div class="w-full text-center mb-8" data-purpose="hero-copy-block">
+      <div class="inline-flex items-center gap-2 px-3.5 py-1.5 rounded-full bg-blue-950/60 border border-blue-500/30 text-blue-200 text-xs font-semibold shadow-sm backdrop-blur-sm mb-4">
+        <span class="w-2 h-2 rounded-full bg-amber-400"></span>
+        <span>Saneamiento Financiero &amp; Habeas Data</span>
+      </div>
+      <h1 class="text-2xl sm:text-3xl font-extrabold text-white tracking-tight leading-snug">
+        ¿Reportado en Datacrédito o Cifin? Vuelve a soñar con tu <span class="text-transparent bg-clip-text bg-gradient-to-r from-blue-400 via-sky-300 to-amber-300">casa, carro o negocio propio</span>
+      </h1>
+      <p class="text-slate-300 text-sm mt-3 leading-relaxed font-normal">
+        Te ayudamos a eliminar reportes negativos legalmente y empezar una nueva vida crediticia desde cero. <strong class="text-amber-300 font-semibold block mt-1">¡El crédito no es un privilegio, es tu derecho a prosperar!</strong>
+      </p>
+      
+      <div class="grid grid-cols-3 gap-2 mt-6 py-3 px-3 rounded-2xl bg-sky-950/40 border border-sky-800/40 text-center">
+        <div>
+          <span class="block text-lg font-extrabold text-amber-400">+1,800</span>
+          <span class="text-[11px] text-slate-300 leading-tight block">Casos Resueltos</span>
+        </div>
+        <div class="border-x border-slate-700/60 px-1">
+          <span class="block text-lg font-extrabold text-emerald-400">100%</span>
+          <span class="text-[11px] text-slate-300 leading-tight block">Legal en Colombia</span>
+        </div>
+        <div>
+          <span class="block text-lg font-extrabold text-sky-400">0 Letras</span>
+          <span class="text-[11px] text-slate-300 leading-tight block">Pequeñas</span>
+        </div>
+      </div>
+    </div>
+    <!-- END: Hero Copy -->
+
+    <!-- BEGIN: Why Recover Section -->
+    <section aria-label="Beneficios de recuperar vida crediticia" class="w-full mb-8">
+      <div class="text-center mb-5">
+        <span class="text-xs uppercase tracking-widest font-bold text-sky-400 bg-sky-950/40 border border-sky-800/40 px-3 py-1 rounded-full inline-block">
+          Nuevas Oportunidades
+        </span>
+        <h2 class="text-xl font-bold text-white mt-2.5">¿Por qué recuperar tu vida crediticia hoy?</h2>
+        <p class="text-xs sm:text-sm text-slate-300 mt-1 font-normal">Vuelve a tener las puertas del sistema financiero abiertas para ti.</p>
+      </div>
+      <div class="grid grid-cols-1 sm:grid-cols-2 gap-3">
+        <div class="p-4 rounded-2xl bg-[#0a1c32]/80 border border-blue-500/20 shadow-md flex items-start gap-3.5">
+          <div class="w-10 h-10 rounded-xl bg-amber-400/10 border border-amber-400/30 flex items-center justify-center flex-shrink-0 text-amber-400">
+            <i class="fa-solid fa-house-chimney text-base"></i>
+          </div>
+          <div>
+            <h3 class="text-sm font-bold text-white leading-tight">Tu Casa Propia</h3>
+            <p class="text-xs text-slate-300 mt-1 leading-snug">Accede al crédito hipotecario o subsidios que te han negado por reportes.</p>
+          </div>
+        </div>
+        <div class="p-4 rounded-2xl bg-[#0a1c32]/80 border border-blue-500/20 shadow-md flex items-start gap-3.5">
+          <div class="w-10 h-10 rounded-xl bg-sky-400/10 border border-sky-400/30 flex items-center justify-center flex-shrink-0 text-sky-400">
+            <i class="fa-solid fa-car text-base"></i>
+          </div>
+          <div>
+            <h3 class="text-sm font-bold text-white leading-tight">Vehículo o Moto</h3>
+            <p class="text-xs text-slate-300 mt-1 leading-snug">Financiación directa sin trabas, codeudores imposibles ni tasas abusivas.</p>
+          </div>
+        </div>
+        <div class="p-4 rounded-2xl bg-[#0a1c32]/80 border border-blue-500/20 shadow-md flex items-start gap-3.5">
+          <div class="w-10 h-10 rounded-xl bg-emerald-400/10 border border-emerald-400/30 flex items-center justify-center flex-shrink-0 text-emerald-400">
+            <i class="fa-solid fa-briefcase text-base"></i>
+          </div>
+          <div>
+            <h3 class="text-sm font-bold text-white leading-tight">Libre Inversión</h3>
+            <p class="text-xs text-slate-300 mt-1 leading-snug">Capital para impulsar tu emprendimiento o consolidar tus deudas.</p>
+          </div>
+        </div>
+        <div class="p-4 rounded-2xl bg-[#0a1c32]/80 border border-blue-500/20 shadow-md flex items-start gap-3.5">
+          <div class="w-10 h-10 rounded-xl bg-purple-400/10 border border-purple-400/30 flex items-center justify-center flex-shrink-0 text-purple-300">
+            <i class="fa-solid fa-shield-heart text-base"></i>
+          </div>
+          <div>
+            <h3 class="text-sm font-bold text-white leading-tight">Paz Mental</h3>
+            <p class="text-xs text-slate-300 mt-1 leading-snug">Cero llamadas molestas de cobro y verdadera libertad financiera.</p>
+          </div>
+        </div>
+      </div>
+    </section>
+    <!-- END: Why Recover Section -->
+
+    <!-- BEGIN: Legal Process Section -->
+    <section aria-label="Proceso legal paso a paso" class="w-full mb-8">
+      <div class="text-center mb-5">
+        <span class="text-xs uppercase tracking-widest font-bold text-amber-400 bg-amber-400/10 border border-amber-400/30 px-3 py-1 rounded-full inline-block">
+          Transparencia Jurídica
+        </span>
+        <h2 class="text-xl font-bold text-white mt-2.5">Nuestro Proceso 100% Legal y Seguro</h2>
+        <p class="text-xs sm:text-sm text-slate-300 mt-1 font-normal">Aplicamos rigurosamente la Ley 1266 y 2157 de Habeas Data.</p>
+      </div>
+      <div class="space-y-3">
+        <div class="p-4 rounded-2xl bg-gradient-to-r from-[#0a1c32] to-[#0d223b] border border-blue-500/20 flex items-start gap-3.5">
+          <span class="flex items-center justify-center w-8 h-8 rounded-full bg-blue-600 text-white font-bold text-sm flex-shrink-0 shadow-md">1</span>
+          <div>
+            <h3 class="text-sm font-bold text-white">Diagnóstico Gratuito</h3>
+            <p class="text-xs text-slate-300 mt-0.5 leading-snug">Revisión exhaustiva y personalizada de tu estado en centrales de riesgo.</p>
+          </div>
+        </div>
+        <div class="p-4 rounded-2xl bg-gradient-to-r from-[#0a1c32] to-[#0d223b] border border-blue-500/20 flex items-start gap-3.5">
+          <span class="flex items-center justify-center w-8 h-8 rounded-full bg-blue-600 text-white font-bold text-sm flex-shrink-0 shadow-md">2</span>
+          <div>
+            <h3 class="text-sm font-bold text-white">Estudio Jurídico</h3>
+            <p class="text-xs text-slate-300 mt-0.5 leading-snug">Identificación de caducidades, violaciones al debido proceso y prescripciones.</p>
+          </div>
+        </div>
+        <div class="p-4 rounded-2xl bg-gradient-to-r from-[#0a1c32] to-[#0d223b] border border-blue-500/20 flex items-start gap-3.5">
+          <span class="flex items-center justify-center w-8 h-8 rounded-full bg-blue-600 text-white font-bold text-sm flex-shrink-0 shadow-md">3</span>
+          <div>
+            <h3 class="text-sm font-bold text-white">Radicación y Eliminación</h3>
+            <p class="text-xs text-slate-300 mt-0.5 leading-snug">Gestión formal mediante derechos de petición y amparo de Habeas Data.</p>
+          </div>
+        </div>
+        <div class="p-4 rounded-2xl bg-gradient-to-r from-[#0a1c32] to-[#0d223b] border border-blue-500/20 flex items-start gap-3.5">
+          <span class="flex items-center justify-center w-8 h-8 rounded-full bg-emerald-500 text-white font-bold text-sm flex-shrink-0 shadow-md">4</span>
+          <div>
+            <h3 class="text-sm font-bold text-white">Restauración de Score</h3>
+            <p class="text-xs text-slate-300 mt-0.5 leading-snug">Plan estratégico para elevar tu puntaje y volver a ser sujeto de crédito.</p>
+          </div>
+        </div>
+      </div>
+    </section>
+    <!-- END: Legal Process Section -->
+
+    <!-- BEGIN: Testimonials Section -->
+    <section aria-label="Testimonios y casos de éxito" class="w-full mb-8">
+      <div class="text-center mb-5">
+        <span class="text-xs uppercase tracking-widest font-bold text-emerald-400 bg-emerald-500/10 border border-emerald-500/30 px-3 py-1 rounded-full inline-block">
+          Casos de Éxito
+        </span>
+        <h2 class="text-xl font-bold text-white mt-2.5">Historias Reales de Tranquilidad</h2>
+      </div>
+      <div class="space-y-3.5">
+        <div class="p-4 rounded-2xl bg-[#0a1c32] border border-slate-700/60 shadow-lg">
+          <div class="flex items-center gap-1 text-amber-400 text-xs mb-2">
+            <i class="fa-solid fa-star"></i><i class="fa-solid fa-star"></i><i class="fa-solid fa-star"></i><i class="fa-solid fa-star"></i><i class="fa-solid fa-star"></i>
+            <span class="text-slate-400 text-[11px] ml-1.5">Caso Verificado</span>
+          </div>
+          <p class="text-xs sm:text-sm text-slate-200 italic leading-relaxed">
+            "Llevaba 4 años reportado por una línea telefónica que ni recordaba. En menos de 45 días salí de Datacrédito y ya me aprobaron la cuota inicial de mi apartamento."
+          </p>
+          <div class="mt-3 pt-2.5 border-t border-slate-800 flex items-center justify-between text-xs text-slate-400">
+            <span class="font-bold text-white">Carlos M.</span>
+            <span>Bogotá D.C.</span>
+          </div>
+        </div>
+        <div class="p-4 rounded-2xl bg-[#0a1c32] border border-slate-700/60 shadow-lg">
+          <div class="flex items-center gap-1 text-amber-400 text-xs mb-2">
+            <i class="fa-solid fa-star"></i><i class="fa-solid fa-star"></i><i class="fa-solid fa-star"></i><i class="fa-solid fa-star"></i><i class="fa-solid fa-star"></i>
+            <span class="text-slate-400 text-[11px] ml-1.5">Caso Verificado</span>
+          </div>
+          <p class="text-xs sm:text-sm text-slate-200 italic leading-relaxed">
+            "Pude financiar mi camioneta de trabajo después de que todos los bancos me decían que no por una deuda castigada antigua. Muy recomendados."
+          </p>
+          <div class="mt-3 pt-2.5 border-t border-slate-800 flex items-center justify-between text-xs text-slate-400">
+            <span class="font-bold text-white">Sandra P.</span>
+            <span>Medellín, Ant.</span>
+          </div>
+        </div>
+      </div>
+    </section>
+    <!-- END: Testimonials Section -->
+
+    <!-- BEGIN: ContactSection -->
+    <section aria-labelledby="contact-heading" class="w-full space-y-4" data-purpose="contact-channels">
+      <div class="text-center mb-4">
+        <span class="text-xs uppercase tracking-widest font-bold text-sky-400 bg-sky-950/40 border border-sky-800/40 px-3 py-1 rounded-full inline-block">
+          Asesoría Personalizada
+        </span>
+        <h2 class="text-xl font-bold text-white mt-2.5" id="contact-heading">Escríbenos y Comienza Hoy</h2>
+        <p class="text-xs sm:text-sm text-slate-300 max-w-xs mx-auto mt-1 font-normal leading-relaxed">
+          Da el primer paso hacia tu casa o vehículo. Recibe tu diagnóstico preliminar sin costo.
+        </p>
+      </div>
+      
+      <a aria-label="Solicitar Diagnóstico Gratis por WhatsApp" class="interactive-card flex items-center p-4 bg-white rounded-2xl shadow-xl shadow-emerald-500/10 hover:shadow-emerald-950/20 active:bg-slate-50 transition border border-white/90 group" href="https://wa.me/573145683788?text=Hola%20Credinova%2C%20quiero%20solicitar%20mi%20diagn%C3%B3stico%20gratuito%20para%20sanear%20mi%20vida%20crediticia" rel="noopener noreferrer" target="_blank">
+        <div class="w-14 h-14 rounded-2xl bg-emerald-500 text-white flex items-center justify-center flex-shrink-0 shadow-md shadow-emerald-500/25 group-hover:scale-105 transition-transform duration-200">
+          <i class="fa-brands fa-whatsapp text-3xl"></i>
+        </div>
+        <div class="ml-4 flex-1 text-left min-w-0">
+          <div class="flex items-center gap-1.5">
+            <span class="block text-[11px] font-bold tracking-wider text-emerald-700 uppercase">Respuesta Inmediata</span>
+            <span class="inline-block w-2 h-2 rounded-full bg-emerald-500"></span>
+          </div>
+          <p class="text-base sm:text-lg font-bold text-slate-900 leading-snug truncate">Escríbenos por WhatsApp</p>
+          <span class="block text-xs text-slate-500 font-medium">Habla con un asesor jurídico ahora</span>
+        </div>
+        <div class="text-slate-400 ml-2 group-hover:text-emerald-600 transition-colors">
+          <i class="fa-solid fa-chevron-right text-sm"></i>
+        </div>
+      </a>
+      
+      <a aria-label="Visítanos en Facebook" class="interactive-card flex items-center p-4 bg-white rounded-2xl shadow-lg shadow-black/20 hover:shadow-blue-950/20 active:bg-slate-50 transition border border-white/90 group" href="https://www.facebook.com" rel="noopener noreferrer" target="_blank">
+        <div class="w-14 h-14 rounded-2xl bg-blue-600 text-white flex items-center justify-center flex-shrink-0 shadow-md shadow-blue-600/25 group-hover:scale-105 transition-transform duration-200">
+          <i class="fa-brands fa-facebook-f text-2xl"></i>
+        </div>
+        <div class="ml-4 flex-1 text-left min-w-0">
+          <span class="block text-[11px] font-bold tracking-wider text-blue-700 uppercase">Comunidad en Facebook</span>
+          <p class="text-base sm:text-lg font-bold text-slate-900 leading-snug truncate">Visítanos en Facebook</p>
+          <span class="block text-xs text-slate-500 font-medium">Conoce testimonios y casos de éxito</span>
+        </div>
+        <div class="text-slate-400 ml-2 group-hover:text-blue-600 transition-colors">
+          <i class="fa-solid fa-chevron-right text-sm"></i>
+        </div>
+      </a>
+      
+      <div class="pt-3 flex items-center justify-center gap-2 text-slate-400 text-xs text-center" data-purpose="schedule-info">
+        <i class="fa-regular fa-clock text-sky-400 text-sm"></i>
+        <span><strong class="text-slate-300 font-semibold">Horario:</strong> Lunes a Sábado: 8:00 AM – 6:00 PM</span>
+      </div>
+    </section>
+    <!-- END: ContactSection -->
+  </main>
+
+  <!-- BEGIN: Footer -->
+  <footer class="w-full border-t border-slate-800 bg-[#050e18] py-8 px-6 text-center" data-purpose="page-footer">
+    <div class="max-w-md mx-auto space-y-4">
+      <p class="text-[11px] leading-relaxed text-slate-400/90 text-justify sm:text-center">
+        <strong class="text-slate-300">Aviso Legal y Privacidad:</strong> Tratamiento de datos personales gestionado conforme a la Ley 1581 de 2012 y el Decreto 1377 de 2013 de la República de Colombia. Procesos adelantados en el marco del derecho fundamental al Habeas Data.
+      </p>
+      <div class="w-12 h-px bg-slate-800 mx-auto"></div>
+      <p class="text-xs text-slate-400 font-medium">
+        © 2025 Credinova Colombia. Todos los derechos reservados.
+      </p>
+    </div>
+  </footer>
+  <!-- END: Footer -->
+
+  <!-- BEGIN: FloatingWhatsAppButton -->
+  <aside aria-label="WhatsApp Flotante">
+    <a aria-label="Abrir chat de WhatsApp" class="fixed bottom-6 right-5 z-50 flex items-center justify-center w-14 h-14 bg-emerald-500 text-white rounded-full shadow-2xl shadow-emerald-500/50 hover:bg-emerald-600 active:scale-95 transition-all duration-200" href="https://wa.me/573145683788?text=Hola%20Credinova%2C%20quiero%20solicitar%20mi%20diagn%C3%B3stico%20gratuito%20para%20sanear%20mi%20vida%20crediticia" rel="noopener noreferrer" target="_blank">
+      <i class="fa-brands fa-whatsapp text-3xl"></i>
+      <span class="absolute top-0.5 right-0.5 flex h-3.5 w-3.5">
+        <span class="status-pulse absolute inline-flex h-full w-full rounded-full bg-amber-400 opacity-75"></span>
+        <span class="relative inline-flex rounded-full h-3.5 w-3.5 bg-amber-500 border-2 border-white"></span>
+      </span>
+    </a>
+  </aside>
+  <!-- END: FloatingWhatsAppButton -->
+
+</body>
+</html>

@@ -1,0 +1,14 @@
+# Sistema
+.DS_Store
+Thumbs.db
+desktop.ini
+
+# Editores
+.vscode/
+.idea/
+
+# Dependencias y entornos (por si más adelante se agregan)
+node_modules/
+.env
+.env.*
+*.log

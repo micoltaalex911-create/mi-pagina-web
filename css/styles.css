@@ -1,0 +1,35 @@
+/* Exact banner constraint requested: max-height 230px on mobile, 450px on desktop */
+.hero-banner-img {
+  width: 100%;
+  height: 100%;
+  max-height: 230px;
+  object-fit: cover;
+  object-position: center;
+  display: block;
+}
+
+@media (min-width: 768px) {
+  .hero-banner-img {
+    max-height: 450px;
+  }
+}
+
+/* Smooth tap interactions for mobile ergonomics */
+.interactive-card {
+  transition: all 0.2s cubic-bezier(0.4, 0, 0.2, 1);
+  -webkit-tap-highlight-color: transparent;
+}
+
+.interactive-card:active {
+  transform: scale(0.985);
+}
+
+/* Subtle pulsing effect for WhatsApp float badge */
+@keyframes pulse-dot {
+  0%, 100% { transform: scale(1); opacity: 1; }
+  50% { transform: scale(1.2); opacity: 0.8; }
+}
+
+.status-pulse {
+  animation: pulse-dot 2s infinite ease-in-out;
+}
